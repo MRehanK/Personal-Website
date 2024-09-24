@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/*Navigation Bar-------------------------------------------------------------------*/
+nav{
+    background: rgb(51, 58, 73);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vh;
+    
+    
+}
+
+#myImg img {
+    width: 7vh;
+    height: 7vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    border-radius: 50%;
+  }
+
+#nav ul li{
+    list-style: none;/*doesnt give it the bullits*/
+    display: inline-block;
+    padding: 0 2vh;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    font-size: 3vh;
+    color: aliceblue;
+    
+}
+
+/*Main Front page-------------------------------------------------------------------*/
+#background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1; /* Places the video behind the content */
+}
+
+
+h1 {
+    font-size: 6vh;
+    color:aliceblue;
+    padding: 2vh;
+    background-color: rgb(51, 58, 73);
+    border-radius: 20px;
+}
+
+#op {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    height: 80vh;           
+}
+
+
+#op img {
+    margin-left: 10vh;
+    width: 40vh; /* Adjust the size of the image */
+    height: 40vh; /* Maintain a square aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    
+}
+
+/*About Section-------------------------------------------------------------------*/
+#about {
+    display: flex; /* Flexbox enables side-by-side alignment */
+    align-items: flex-start; /* Aligns items to the top */
+     /* Spaces items with some room between them */
+    margin: 10px;
+    background-color: aquamarine;
+    padding-bottom: 15vh;
+}
+
+#about_me{
+    margin-top: 20vh;
+    margin-left: 20vh;
+    
+}
+
+
+
+h3 {
+    
+    font-size: 4.9vh;
+    padding-right: 30vh; /* Add some space between the h3 and the paragraph */
+}
+
+
+p {
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 15vh;
+    margin-right: 15vh;
+    text-align: center;
+    max-width: 50%; /* Adjust the paragraph width as necessary */
+    
+}
+
+
+/*Experiance Section-------------------------------------------------------------------*/
+#experiance{
+    background-color: pink;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#exp{
+    margin-left: 20vh;
+    margin-bottom: 2vh;
+}
+
+#company-names {
+    display: flex;
+    justify-content: space-between; /* Spread the company names evenly */
+    font-size: 3vh;
+    padding-left: 15vh; /* Match with #discription for consistency */
+    padding-right: 15vh;
+    box-sizing: border-box; /* Ensure padding is considered in the width */
+}
+
+#discription {
+    display: flex;
+    justify-content: space-between; /* Space the boxes evenly */
+    gap: 2vh; /* Add spacing between the boxes */
+    padding-left: 15vh; /* Same as #company-names to align the boxes */
+    padding-right: 15vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    box-sizing: border-box;
+    margin-top: -1vh; /* Adjust to reduce spacing between names and descriptions */
+}
+
+#discription ul {
+    margin-left: 0; /* Align boxes to the left */
+    padding: 2.5vh; /* Add padding inside the box */
+    list-style-type: disc; /* Default bullet points */
+    border: 2px solid #000; /* Black border around the box */
+    border-radius: 1.25vh; /* Rounded corners (optional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for a 3D effect */
+    width: 30%; /* Make each box take up 30% of the container width */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+#discription ul li {
+    margin-bottom: 10px; /* Add space between list items */
+    font-size: 2.1vh; /* Adjust text size */
+}
+
+/* Extra adjustments to individual sections */
+#IBC, #IQ4, #TFR {
+    flex: 1; /* Ensure equal space distribution for all company names */
+    text-align: center; /* Align company names centrally within each section */
+}
+
+#TFR {
+    margin-right: 0;
+}
+
+
+
+/*Projects-------------------------------------------------------------------*/
+#projects{
+    background-color:aqua;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin: 10px;
+}
+
+#my_projects{
+    margin-left: 20vh;
+    margin-bottom: 2vh;
+    
+}
+
+#project-names{
+    display: flex;
+    justify-content: space-between; /* Spread the company names evenly */
+    font-size: 3vh;
+    padding-left: 15vh; /* Match with #discription for consistency */
+    padding-right: 15vh;
+    box-sizing: border-box; /* Ensure padding is considered in the width */
+}
+
+#project_discription {
+    display: flex;
+    justify-content: space-between; /* Space the boxes evenly */
+    gap: 2vh; /* Add spacing between the boxes */
+    padding-left: 15vh; /* Same as #company-names to align the boxes */
+    padding-right: 15vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    box-sizing: border-box;
+    margin-top: -1vh; /* Adjust to reduce spacing between names and descriptions */
+}
+
+#project_discription ul {
+    margin-left: 0; /* Align boxes to the left */
+    padding: 2.5vh; /* Add padding inside the box */
+    list-style-type: disc; /* Default bullet points */
+    border: 2px solid #000; /* Black border around the box */
+    border-radius: 1.25vh; /* Rounded corners (optional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for a 3D effect */
+    width: 30%; /* Make each box take up 30% of the container width */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+#project_discription ul li {
+    margin-bottom: 10px; /* Add space between list items */
+    font-size: 2.1vh; /* Adjust text size */
+}
+
+#personal, #Calculator, #Travel {
+    flex: 1; /* Ensure equal space distribution for all company names */
+    text-align: center; /* Align company names centrally within each section */
+}
+
+#Calculator {
+    margin-right: 0;
+}
+
+/*Certificates-------------------------------------------------------------------*/
+#certificates{
+    background-color: rgb(247, 131, 131);
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin: 10px;
+}
+
+#my_certificates{
+    margin-left: 20vh;
+    margin-bottom: 2vh;
+}
+
+#info {
+    display: flex;
+    list-style-type: disc;
+    background-color: aliceblue;
+    border: 2px solid #000; /* Black border */
+    border-radius: 5vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+    font-size: 3vh;
+    cursor: pointer; /* Show hand cursor when hovering */
+}
+
+#Status{
+    margin-left: 60vh;
+}
+
+.clickable-section {
+    text-decoration: none; /* Remove underline from text */
+    display: block; /* Make the entire div clickable */
+    color: inherit; /* Inherit color from parent, avoids link color override */
+    
+}
+
+#info:hover {
+    background-color: rgb(236, 78, 30); /* Change background color to red on hover */
+    text-decoration: underline; 
+}
+
+/*Contacts-------------------------------------------------------------------*/
+
+#contact{
+    background-color: rgb(51, 58, 73);
+    color: aliceblue;
+    padding-left: 20vh;
+    padding-bottom: 2vh;
+}
+
+#my_contact{
+    padding-top: 2vh;
+    
+}
+
+#info1{
+    margin-top: 2vh;
+}
+
+
+#info1 a {
+    color: white; 
+    text-decoration: none; 
+}
+
+#info1 a:hover {
+    text-decoration: underline; 
+}
