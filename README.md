@@ -1,15 +1,23 @@
-Personal Portfolio Website
-This is a personal portfolio website to showcase my skills, experiences, and projects. The website features sections such as About Me, Experience, Projects, Certificates, and Contact.
+# Personal Portfolio Website
 
-Features
-Responsive Design: Works well on both desktop and mobile devices.
-Background Video: Engaging video on the homepage for a modern touch.
-Interactive Navigation: Smooth transitions between sections.
-Experience Section: Highlighting my professional experience in IT support, cybersecurity, and software development.
-Projects Section: Showcasing personal projects including a calculator, travel website, and personal portfolio.
-Certificates Section: Links to completed certifications like Google Cybersecurity.
-Contact Section: Includes email and LinkedIn links for easy communication.
-Technologies Used
-HTML5
-CSS3
-JavaScript
+This is a personal portfolio website to showcase my skills, experiences, and projects. The website features sections such as **About Me**, **Experience**, **Projects**, **Certificates**, and **Contact**.
+
+## Features
+
+- **Responsive Design**: The layout is fully responsive across different screen sizes and devices.
+- **Dynamic Background**: Includes a video background on the homepage for a visually appealing presentation.
+- **Interactive Navigation**: Smooth scrolling and navigation links to different sections.
+- **Project Showcases**: Detailed descriptions of previous projects with links and visual elements.
+- **Certificates**: Direct link to view certificates such as the **Google Cybersecurity Professional Certificate**.
+- **Contact Information**: Email and LinkedIn contact links.
+
+## Technologies Used
+- **HTML5**: For the structure and content of the website.
+- **CSS3**: To style the website and make it visually appealing.
+- **JavaScript**: For enhanced user interactions.
+- **Pexels**: For background video integration.
+
+##Link
+- https://main--muhammad-khan-personal-website.netlify.app/
+
+##Demo Video
